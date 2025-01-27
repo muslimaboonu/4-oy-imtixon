@@ -1,0 +1,550 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1284.06px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.header__wrapper {
+  background-image: url(../assets/images/bg-pattern.png);
+  background-color: #0a0d1603;
+  background-color: #ffffff;
+  border: 1.2px solid;
+  border-image-source: radial-gradient(
+    37.55% 33.81% at 50% 75.06%,
+    rgba(10, 13, 22, 0.01) 20.5%,
+    rgba(10, 13, 22, 0.04) 100%
+  );
+}
+
+.header {
+  padding-top: 34px;
+  padding-bottom: 40px;
+}
+
+.header__container {
+  max-width: 1224px;
+}
+
+.image__header {
+  max-width: 192px;
+  display: flex;
+}
+
+.join {
+  padding-top: 40px;
+  padding-bottom: 85px;
+}
+
+.join__container {
+  max-width: 1210px;
+}
+
+.join__title {
+  font-family: "Martian Mono", sans-serif;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 74.4px;
+  letter-spacing: -2px;
+  margin-bottom: 24px;
+  background: linear-gradient(107.24deg, #fea36f -11.37%, #062630 61.84%);
+  color: transparent;
+  background-clip: text;
+}
+
+.join__text {
+  width: 570px;
+  color: #385159;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.join__button {
+  text-decoration: none;
+  cursor: grab;
+  width: 380px;
+  display: flex;
+  font-family: "Martian Mono", sans-serif;
+  background-color: #ffffff;
+  color: #062630;
+  border: 2px solid #062630;
+  border-radius: 8px;
+  font-weight: 600;
+  line-height: 23px;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 20px;
+  letter-spacing: -1px;
+}
+.join__button:hover {
+  background-color: #ffe2d1;
+}
+
+.join__info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.join__info__img {
+  width: 110px;
+}
+
+.join__info__second {
+  display: flex;
+  flex-direction: column;
+}
+
+.join__info__second__img {
+  width: 24px;
+}
+
+.join__info__text {
+  font-family: "Martian Mono", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #385159;
+}
+
+.info__img {
+  max-width: 536px;
+  border-radius: 12px;
+}
+
+.join__right {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.join__information {
+  display: flex;
+  flex-direction: column;
+  max-width: 570px;
+}
+
+.read {
+  background-color: #fff;
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+
+.read__container {
+  max-width: 1210px;
+}
+
+.read__right {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.read__img {
+  max-width: 560px;
+  border-radius: 12px;
+}
+
+.read__title {
+  color: #062630;
+  font-family: "Martian Mono", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: -2px;
+  text-align: left;
+  margin-bottom: 34px;
+  line-height: 65px;
+}
+
+.read__wrapper {
+  max-width: 431px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.read__informations {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.read__text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+
+.average {
+  margin-bottom: 120px;
+}
+.average__container {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  background-image: url(../assets/images/logos-tech.svg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.average__title {
+  font-weight: 600;
+  font-family: "Martian Mono", sans-serif;
+  font-size: 50px;
+  line-height: 65px;
+  letter-spacing: -2px;
+  width: 100%;
+  max-width: 534px;
+  color: #062630;
+  margin-bottom: 24px;
+  background-image: url(../assets/images/pattern-circle.png);
+  background-repeat: no-repeat;
+  background-position: bottom left 145px;
+}
+.average__description {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+  color: #385159;
+}
+.average__span {
+  color: #062630;
+}
+
+.average__img {
+  border-radius: 8px;
+}
+.average__img__mobile {
+  display: none;
+}
+.average__img__tablet {
+  display: none;
+}
+
+.journey {
+  background-color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.journey__container {
+  max-width: 1220px;
+  background-image: url(../assets/images/pattern-light-bg.svg);
+}
+.journey__right {
+  border-radius: 10px;
+  background-color: #faf5f3;
+  background-image: url(../assets/images/pattern-light-bg.svg);
+}
+.journey__title {
+  font-family: "Martian Mono", sans-serif;
+  color: #062630;
+  text-align: center;
+  width: 512px;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  margin-bottom: 64px;
+  padding-top: 80px;
+  letter-spacing: -0.04em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.journey__information {
+  display: flex;
+  gap: 40px;
+  padding-bottom: 80px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.journey__wrapper {
+  width: 226px;
+  background-image: url(../assets/images/pattern-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.journey__wrapper:nth-child(4) {
+  background-image: none;
+}
+.journey__num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-family: "Martian Mono";
+  border: 2px solid #062630;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 24px;
+}
+.journey__text {
+  font-family: "Martian Mono";
+  color: #062630;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23.4px;
+  letter-spacing: -0.01em;
+}
+
+.options {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.options__container {
+  max-width: 1010px;
+}
+.options__title__first {
+  font-family: "Martian Mono", sans-serif;
+  color: #062630;
+  font-weight: 600;
+  line-height: 65px;
+  font-size: 50px;
+  letter-spacing: -2px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+.options__both {
+  display: flex;
+  gap: 25px;
+}
+.options__first {
+  border: 1px solid #e6e1df;
+  border-radius: 4px;
+  padding: 24px;
+}
+.options__second {
+  background: var(--colors-neutral-50, #faf5f3);
+  border: 1px solid #e6e1df;
+  border-radius: 4px;
+  padding: 24px;
+}
+.options__title {
+  font-family: "Martian Mono", sans-serif;
+  color: #062630;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26.4px;
+  letter-spacing: -1px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.options__info {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.options__cost {
+  font-family: "Martian Mono", sans-serif;
+  color: #062630;
+  text-align: left;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 44.2px;
+  letter-spacing: -1px;
+}
+.options__text {
+  font-family: "Inter", sans-serif;
+  color: #385159;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+.devider {
+  background-color: #e6e1df;
+  width: 238px;
+  margin-bottom: 24px;
+}
+.second {
+  width: 302px;
+}
+.information {
+  margin-bottom: 32px;
+}
+.button__option {
+  background-color: #fff5ef;
+  width: 100%;
+  border: 2px solid #062630;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+}
+.link__option {
+  font-family: "Martian Mono", sans-serif;
+  color: #062630;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23.4px;
+  text-align: left;
+  text-decoration: none;
+  cursor: grab;
+}
+.button__option:hover {
+  cursor: grab;
+  background: linear-gradient(90deg, #ffe2d1 0%, #fff5ef 100%);
+}
+.butto__-option:focus {
+  box-shadow: 0px 0px 0px 5px var(--colorsneutral700);
+  box-shadow: 0px 0px 0px 3px #ffffff;
+}
+.cta__container {
+  margin-left: auto;
+  margin-right: auto;
+}
+.cta__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+}
+.cta__description {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Martian Mono", sans-serif;
+  font-size: 34px;
+  line-height: 44.2px;
+  letter-spacing: -1px;
+  color: #062630;
+  margin-bottom: 32px;
+  width: 100%;
+  max-width: 970px;
+}
+.cta__addres {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-style: normal;
+  color: #385159;
+  margin-bottom: 120px;
+}
+.footer {
+  background-image: url(..assets/images/pattern-dark-bg.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(6, 38, 48, 1);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.footer__descriptions {
+  border-bottom: 1px solid rgba(56, 81, 89, 1);
+}
+.footer__title {
+  font-weight: 600;
+  font-family: "Martian Mono", sans-serif;
+  color: rgba(250, 245, 243, 1);
+  margin-bottom: 40px;
+  margin-top: 80px;
+  font-size: 50px;
+  line-height: 65px;
+  width: 100%;
+  max-width: 685px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer__btn {
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 400px;
+  padding-top: 20.5px;
+  padding-bottom: 20.5px;
+  padding-left: 24px;
+  padding-right: 24px;
+  gap: 16px;
+  margin-bottom: 24px;
+  &:hover {
+    background-color: rgba(56, 81, 89, 1);
+  }
+}
+.footer__btn__subtitle {
+  font-weight: 600;
+  font-family: "Martian Mono", sans-serif;
+  font-size: 18px;
+  line-height: 23.4px;
+  width: 100%;
+  max-width: 292px;
+  height: 100%;
+  max-height: 23px;
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: -1px;
+}
+
+.footer__img__and__stars__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 64px;
+}
+
+.footer__description {
+  font-weight: 400;
+  font-family: "Martian Mono", sans-serif;
+  font-size: 14px;
+  line-height: 16.8px;
+  color: rgba(250, 245, 243, 1);
+  margin-top: 4px;
+}
+.footer__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.footer__address {
+  font-weight: 400;
+  font-family: "Martian Mono", sans-serif;
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+}
+.footer__list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
